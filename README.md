@@ -25,12 +25,12 @@ This repository contains a Python script that uses the OpenVINO toolkit and Open
    
 2. Navigate to the project directory:
    ```
-   cd <openvino_face-detection>
+   cd openvino_face-detection
    ```
 
 3. Run the script:
    ```
-   python <main>.py
+   python main.py
    ```
    
 ### Note:
