@@ -1,47 +1,47 @@
 ```markdown
-# Face Detection with OpenVINO and OpenCV
+# Real-Time Face Detection with OpenVINO and OpenCV
 
-This repository contains a Python script that uses the OpenVINO toolkit and OpenCV library to perform face detection in real-time using a webcam.
+This repository hosts a Python script that leverages the OpenVINO toolkit and the OpenCV library to facilitate real-time face detection using a webcam.
 
-## Requirements
+## Prerequisites
 
 - OpenVINO Toolkit
-- OpenCV Python
+- OpenCV Python Package
 
-## Installation
+## Setting Up
 
-1. Install OpenVINO Toolkit: Follow the instructions on the [official website](https://docs.openvinotoolkit.org/latest/index.html).
-2. Install OpenCV Python: You can install it via pip:
+1. **OpenVINO Toolkit:** Follow the detailed setup instructions on the [official website](https://docs.openvinotoolkit.org/latest/index.html).
+2. **OpenCV Python:** Install it using the following pip command:
    ```
-   pip install opencv-python
+   pip install opencv-python-headless
    ```
 
-## Usage
+## How to Use
 
-1. Clone this repository:
+1. Clone the repository:
    ```
-   git clone <https://github.com/milaomrani/openvino_face-detection.git>
+   git clone https://github.com/milaomrani/openvino_face-detection.git
    ```
    
-2. Navigate to the project directory:
+2. Change to the project directory:
    ```
    cd openvino_face-detection
    ```
 
-3. Run the script:
+3. Execute the script:
    ```
    python main.py
    ```
-   
-### Note:
-- The script utilizes the 'face-detection-adas-0001' model. Make sure to have the '.xml' and '.bin' files in your project directory.
-- Press 'q' to exit the webcam window.
+
+### Important Points:
+- The script operates using the 'face-detection-adas-0001' model. Ensure the '.xml' and '.bin' files are located in your project directory.
+- To close the webcam window, press the 'q' key.
 
 ## License
 
-MIT
+Distributed under the MIT License. See `LICENSE` for more information.
 
-## Contact
+## Support
 
-For any queries or issues, please open an issue on the GitHub repository.
+If you encounter any problems or have questions, feel free to open an issue on the GitHub repository.
 ```
